@@ -24,7 +24,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <section className="relative pt-6 px-4 lg:px-6 pb-20 md:pb-32 overflow-hidden bg-gradient-to-br from-white to-gray-500 h-screen">
+    <section className="relative pt-6 px-4 lg:px-6 pb-20 md:pb-32 overflow-hidden bg-gradient-to-br from-white to-gray-500 h-screen w-[100%]">
       <div className="relative max-w-7xl pt-8 sm:pt-5 mx-auto">
         <img
           className="absolute top-0 left-0 object-contain"
