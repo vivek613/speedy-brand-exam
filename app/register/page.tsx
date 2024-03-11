@@ -27,7 +27,7 @@ const Register: React.FC = () => {
           alt=""
         />
         <div className="relative container px-4 mx-auto">
-          <div className="max-w-lg md:max-w-xl py-14 px-6 xs:px-12 lg:px-16 mx-auto bg-white rounded-4xl shadow-lg">
+          <div className="max-w-lg md:max-w-xl py-14 px-6 xs:px-12 lg:px-16 mx-auto bg-white rounded-4xl shadow-lg rounded-lg">
             <h3 className="font-heading text-4xl text-gray-900 font-semibold mb-4">
               Register your account
             </h3>
