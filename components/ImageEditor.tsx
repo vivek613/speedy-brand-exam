@@ -20,7 +20,7 @@ const ImageEditor: React.FC<ImageEditorProps> = () => {
     image: null,
     text: "",
     fontSize: 30,
-    fontColor: "red",
+    fontColor: "",
     positionX: 50,
     positionY: 1,
   });
@@ -69,7 +69,7 @@ const ImageEditor: React.FC<ImageEditorProps> = () => {
         <ThemeSwitch />
       </div>
       <div
-        className={`flex flex-col items-center justify-center p-[50px] space-y-4 `}
+        className={`flex flex-col items-center justify-center p-[50px] space-y-4  mt-4`}
       >
         <input
           type="file"
